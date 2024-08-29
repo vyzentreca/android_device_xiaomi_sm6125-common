@@ -832,3 +832,11 @@ service vendor.contexthub-hal-1-0 /vendor/bin/hw/android.hardware.contexthub@1.0
     user system
     group system
     disabled
+    
+
+# Set zramswap for performance
+service zramswap /system/bin/swapon /dev/block/zram0
+    class main
+    user root
+    group root
+    oneshot
