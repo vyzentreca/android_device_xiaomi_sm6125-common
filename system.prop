@@ -47,20 +47,14 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 mm.enable.smoothstreaming=true
 mmp.enable.3g2=true
 persist.mm.enable.prefetch=true
-ro.media.recorder-max-base-layer-fps=60
-vendor.mm.enable.qcom_parser=16777215
+# Additional buffers shared between Camera and Video
+vidc.enc.dcvs.extra-buff-count=2
+vidc.enc.disable.pq=1
 
-# Netflix
-ro.netflix.bsp_rev=Q6125-17995-1
+# QTI Mem Optimisation
+persist.vendor.sys.memplus.enable=false
+ro.vendor.qti.sys.fw.bg_apps_limit=30
+ro.vendor.qti.sys.fw.bservice_limit=60
 
-
-# Radio
-persist.radio.NO_STAPA=1
-persist.rcs.supported = 1
-persist.rmnet.data.enable=true
-
-# RIL
-ril.subscription.types=RUIM
-
-# Sensor
-persist.vendor.sensors.enable.mag_filter=true
+# Zygote
+persist.device_config.runtime_native.usap_pool_enabled=true
