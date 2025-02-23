@@ -19,6 +19,9 @@ dalvik.vm.dex2oat64.enabled=true
 # DPM
 persist.dpm.feature=1
 
+# Fake encryption
+ro.crypto.state=encrypted
+
 # Fuse storage
 persist.fuse_sdcard=true
 
@@ -49,6 +52,7 @@ vendor.mm.enable.qcom_parser=16777215
 
 # Netflix
 ro.netflix.bsp_rev=Q6125-17995-1
+
 
 # Radio
 persist.radio.NO_STAPA=1
