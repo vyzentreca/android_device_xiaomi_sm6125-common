@@ -132,6 +132,7 @@ ro.crypto.volume.metadata.method=dm-default-key
 ro.crypto.volume.options=::v2
 
 # Display
+ro.surface_flinger.support_kernel_idle_timer=true
 ro.surface_flinger.use_color_management=true
 ro.vendor.sf.detect.aod.enable=true
 vendor.display.comp_mask=0
